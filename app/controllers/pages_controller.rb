@@ -1,6 +1,6 @@
-class ApplicationController < ActionController::Base
-  def
-    redirect_to :ask
+class PagesController < ApplicationController
 
+  def home
+    redirect_to ask_path
   end
 end
